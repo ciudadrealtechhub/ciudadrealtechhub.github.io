@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Procesadores de Lenguajes - Conociendo un poco más de Ruby"
-date:   2017-1108-
+date:   2017-11-08
 categories: CiudadReal.RB
 ---
 
