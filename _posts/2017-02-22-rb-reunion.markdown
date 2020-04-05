@@ -38,6 +38,8 @@ C/ Quevedo 7 · Ciudad Real
 
 ## Asistentes
 
+12 asistentes, entre los que estaban:
+
 - Sergio Rojas
 - Javier Bercebal Gallardo
 - David Martin Garcia
