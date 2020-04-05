@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kata contra el calor"
-date:   2016-07-05
+date:   2017-07-05
 categories: CiudadReal.RB
 ---
 
