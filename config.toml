@@ -1,0 +1,4 @@
+baseURL = "ciudadrealtechhub.github.io"
+languageCode = "en-us"
+title = "Ciudad Real Tech Hub"
+theme = "ananke"
