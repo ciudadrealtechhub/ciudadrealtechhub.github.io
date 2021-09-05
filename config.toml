@@ -9,11 +9,11 @@ Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[languages]
-  [languages.es]
-    title = "Ciudad Real Tech Hub"
-    weight = 1
-    contentDir = "content"
+#[languages]
+#  [languages.es]
+#    title = "Ciudad Real Tech Hub"
+#    weight = 1
+#    contentDir = "content"
 #  [languages.en]
 #    title = "Ciudad Real Tech Hub"
 #    weight = 2
