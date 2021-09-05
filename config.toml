@@ -1,4 +1,4 @@
-baseURL = "ciudadrealtechhub.github.io"
+baseURL = ""
 languageCode = "es-es"
 title = "Ciudad Real Tech Hub"
 theme = "ananke"
