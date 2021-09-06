@@ -53,3 +53,9 @@ enableRobotsTXT = true
   url = '/about/'
   weight = -110
 
+[[menu.main]]
+  identifier = 'meetings'
+  name = 'Meetings'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/meetings/'
+  weight = -110
