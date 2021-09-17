@@ -1,17 +1,18 @@
 ---
 layout: page
-title: "Meetings"
+title: "Meetings Agile-CR"
 
 date: 2015-05-06T08:30:38+02:00
-permalink: /meetings/
+permalink: /meetings-agilecr/
 ---
 
 ## Próximas reuniones
 
-- 2015/05/13: Taller de scrapping y web-bots (Bizneo)
+A la espera de nuevas propuestas
 
 ## En reuniones anteriores
 
+- 2015/05/13: Taller de scrapping y web-bots (Bizneo)
 - 2015/04/27: Visión por computador y realidad aumentada
 - 2013/03/26: Cañas ágiles
 - 2013/06/26: Charlas

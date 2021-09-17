@@ -54,8 +54,8 @@ enableRobotsTXT = true
   weight = -110
 
 [[menu.main]]
-  identifier = 'meetings'
-  name = 'Meetings'
+  identifier = 'meetings-agilecr'
+  name = 'Meetings Agile-CR'
   pre = "<i class='fa fa-heart'></i>"
-  url = '/meetings/'
+  url = '/meetings-agilecr/'
   weight = -110
