@@ -26,7 +26,7 @@ enableRobotsTXT = true
 
 [params]
   favicon = ""
-  site_logo = ""
+  site_logo = "/images/crth-100.png"
   description = "Ciudad Real Technology Hub, la agrupación de asociaciones tecnológicas de la provincia."
   facebook = ""
   twitter = ""
@@ -36,20 +36,26 @@ enableRobotsTXT = true
   gitlab = ""
   linkedin = ""
   mastodon = ""
-  slack = ""
+  slack = "https://ciudadrealtechhub.herokuapp.com/"
   stackoverflow = ""
   rss = ""
   # choose a background color from any on this page:
   # http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  featured_image = "/images/crth.jpg"
+  featured_image = "/images/tech-bg.jpg"
   recent_posts_number = 2
 
 [menu]
 [[menu.main]]
-  identifier = 'about'
-  name = 'about CRTH'
+  identifier = 'About'
+  name = 'About CRTH'
   pre = "<i class='fa fa-heart'></i>"
   url = '/about/'
   weight = -110
 
+[[menu.main]]
+  identifier = 'meetings-agilecr'
+  name = 'Meetings Agile-CR'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/meetings-agilecr/'
+  weight = -110
