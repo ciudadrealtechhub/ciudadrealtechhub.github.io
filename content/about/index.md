@@ -19,8 +19,21 @@ https://ciudadrealtechhub.herokuapp.com.
 Si lo que buscas es contribuir con la web, consiste en un proyecto [hugo] al
 que puedes contribuir desde [GitHub].
 
-La manera más sencilla es copiar la cabecera de algún otro post en el directorio
-`content/posts` y dejar que github lo compile.
+Basta con crear un archivo en el directorio `content/posts/` con una cabecera
+como:
+
+```
+---
+title: "Pon aquí tu título"
+date: 2021-09-20
+---
+```
+
+Y crear una pull-request.
+
+¡Es muy sencillo! [Aquí puedes ver un ejemplo].
+Además, te ayudaremos con comentarios en la PR a que el resultado sea estupendo.
 
 [hugo]: https://gohugo.io
 [GitHub]: https://github.com/ciudadrealtechhub/ciudadrealtechhub.github.io
+[Aquí puedes ver un ejemplo]: https://github.com/ciudadrealtechhub/ciudadrealtechhub.github.io/pull/4
