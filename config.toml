@@ -9,16 +9,6 @@ Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
 
-#[languages]
-#  [languages.es]
-#    title = "Ciudad Real Tech Hub"
-#    weight = 1
-#    contentDir = "content"
-#  [languages.en]
-#    title = "Ciudad Real Tech Hub"
-#    weight = 2
-#    contentDir = "content/en"
-
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
@@ -54,8 +44,9 @@ enableRobotsTXT = true
   weight = -110
 
 [[menu.main]]
-  identifier = 'meetings-agilecr'
-  name = 'Meetings Agile-CR'
+  identifier = 'grupos'
+  name = 'Grupos'
   pre = "<i class='fa fa-heart'></i>"
-  url = '/meetings-agilecr/'
-  weight = -110
+  url = '/grupos/'
+  weight = -100
+

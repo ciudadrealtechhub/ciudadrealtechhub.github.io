@@ -8,7 +8,7 @@ permalink: /meetings-agilecr/
 
 ## Próximas reuniones
 
-A la espera de nuevas propuestas
+Las próximas propuestas se harán como parte del CRTH.
 
 ## En reuniones anteriores
 
