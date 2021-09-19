@@ -1,4 +1,4 @@
-baseURL = "ciudadrealtechhub.github.io"
+baseURL = ""
 languageCode = "es-es"
 title = "Ciudad Real Tech Hub"
 theme = "ananke"
@@ -9,16 +9,6 @@ Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
 
-[languages]
-  [languages.es]
-    title = "Ciudad Real Tech Hub"
-    weight = 1
-    contentDir = "content"
-#  [languages.en]
-#    title = "Ciudad Real Tech Hub"
-#    weight = 2
-#    contentDir = "content/en"
-
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
@@ -26,7 +16,7 @@ enableRobotsTXT = true
 
 [params]
   favicon = ""
-  site_logo = ""
+  site_logo = "/images/crth-100.png"
   description = "Ciudad Real Technology Hub, la agrupación de asociaciones tecnológicas de la provincia."
   facebook = ""
   twitter = ""
@@ -36,20 +26,27 @@ enableRobotsTXT = true
   gitlab = ""
   linkedin = ""
   mastodon = ""
-  slack = ""
+  slack = "https://ciudadrealtechhub.herokuapp.com/"
   stackoverflow = ""
   rss = ""
   # choose a background color from any on this page:
   # http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
-  featured_image = "/images/crth.jpg"
+  featured_image = "/images/tech-bg.jpg"
   recent_posts_number = 2
 
 [menu]
 [[menu.main]]
-  identifier = 'about'
-  name = 'about CRTH'
+  identifier = 'About'
+  name = 'About CRTH'
   pre = "<i class='fa fa-heart'></i>"
   url = '/about/'
   weight = -110
+
+[[menu.main]]
+  identifier = 'grupos'
+  name = 'Grupos'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/grupos/'
+  weight = -100
 
