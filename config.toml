@@ -34,19 +34,24 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/tech-bg.jpg"
   recent_posts_number = 2
+  mainSections = ["posts"]
 
 [menu]
 [[menu.main]]
-  identifier = 'About'
+  identifier = 'about'
   name = 'About CRTH'
-  pre = "<i class='fa fa-heart'></i>"
   url = '/about/'
-  weight = -110
+  weight = 0
+
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts/'
+  weight = 1
 
 [[menu.main]]
   identifier = 'grupos'
   name = 'Grupos'
-  pre = "<i class='fa fa-heart'></i>"
   url = '/grupos/'
-  weight = -100
+  weight = 2
 
