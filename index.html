@@ -30,8 +30,8 @@
 <div class="flex-l items-center">
 <ul class="pl0 mr3">
 <li class="list f5 f4-ns fw4 dib pr3">
-<a class="hover-white no-underline white-90" href=/about/ title="About CRTH page">
-About CRTH
+<a class="hover-white no-underline white-90" href=/posts/ title="Posts page">
+Posts
 </a>
 </li>
 <li class="list f5 f4-ns fw4 dib pr3">
@@ -40,8 +40,8 @@ Grupos
 </a>
 </li>
 <li class="list f5 f4-ns fw4 dib pr3">
-<a class="hover-white no-underline white-90" href=/posts/ title="Posts page">
-Posts
+<a class="hover-white no-underline white-90" href=/about/ title="About CRTH page">
+About CRTH
 </a>
 </li>
 </ul>
@@ -63,7 +63,7 @@ Ciudad Real Tech Hub
 </article>
 <div class="pa3 pa4-ns w-100 w-70-ns center">
 <h1 class=flex-none>
-Grupos recientes
+Posts recientes
 </h1>
 <section class="w-100 mw8">
 <div class="relative w-100 mb4">
@@ -72,16 +72,14 @@ Grupos recientes
 <div class="flex flex-column flex-row-ns">
 <div class="blah w-100">
 <h1 class="f3 fw1 athelas mt0 lh-title">
-<a href=/grupos/rubycr/2018-07-05-rb-reunion/ class="color-inherit dim link">
-Charla: SQL vs. NoSQL en Rails
+<a href=/posts/nginx-mirror/ class="color-inherit dim link">
+Configurar Nginx para que haga mirroring
 </a>
 </h1>
 <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-🗣 Charla: SQL vs. NoSQL en Rails
-Marcos Martín (http://marcosmartingm.es/), Ingeniero de Software y uno de los habituales del grupo, nos propone una introducción a los sistemas de bases de datos relacionales tradicionales y no-relacionales o NoSQL, en el contexto de los modelos de abstracción que provee Rails.
-Según sus palabras: &ldquo;Hoy en día todos trabajamos con bases de datos relacionales pero cada vez hay más empuje por las no relacionales y no todos sabemos como funcionan.
+Configurar Nginx para que haga mirroring location / { ... mirror /mirror } location /mirror { proxy_pass http://localhost:1500; } Y puede ser muy útil hacer mirror sobre un Echo Server.
 </div>
-<a href=/grupos/rubycr/2018-07-05-rb-reunion/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">Leer más</a>
+<a href=/posts/nginx-mirror/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">Leer más</a>
 </div>
 </div>
 </div>
@@ -93,45 +91,19 @@ Según sus palabras: &ldquo;Hoy en día todos trabajamos con bases de datos rela
 <div class="flex flex-column flex-row-ns">
 <div class="blah w-100">
 <h1 class="f3 fw1 athelas mt0 lh-title">
-<a href=/grupos/rubycr/2018-04-12-rb-reunion/ class="color-inherit dim link">
-Seguimos vivos: Hablemos de Phoenix
+<a href=/posts/echo-server/ class="color-inherit dim link">
+Simple Echo Server
 </a>
 </h1>
 <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-🗣 Charla: &ldquo;Cloud |> Summon |> Phoenix&rdquo;
-Rubén Sierra (https://twitter.com/maguilag), Ingeniero de Software en Bizneo HR Solutions (https://twitter.com/BizneoHR), nos propone dar un pasito más en la serie de charlas sobre el ecosistema Elixir/OTP presentándonos algunas características de Phoenix framework (http://phoenixframework.org/).
-Según sus propias palabras, se tratará de &ldquo;una introducción al framework web de Elixir, Phoenix, donde veremos un poco de historia, sus puntos fuertes frente a otros frameworks y su mayor virtud, los channels, preparando una pequeña aplicación para probar su potencial.
+Simple Echo Server en Bash while true ; do echo -e "HTTP/1.1 200 OK\n\n $(date)" | nc -l -p 1500 -q 1 ; done
 </div>
-<a href=/grupos/rubycr/2018-04-12-rb-reunion/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">Leer más</a>
+<a href=/posts/echo-server/ class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">Leer más</a>
 </div>
 </div>
 </div>
 </article>
 </div>
-</section>
-<section class=w-100>
-<h1 class=f3>Más</h1>
-<h2 class="f5 fw4 mb4 dib mr3">
-<a href=/grupos/rubycr/2017-11-08-rb-reunion/ class="link black dim">
-Procesadores de Lenguajes - Conociendo un poco más de Ruby
-</a>
-</h2>
-<h2 class="f5 fw4 mb4 dib mr3">
-<a href=/grupos/rubycr/2017-07-05-rb-reunion/ class="link black dim">
-Kata contra el calor
-</a>
-</h2>
-<h2 class="f5 fw4 mb4 dib mr3">
-<a href=/grupos/rubycr/2017-04-19-rb-reunion/ class="link black dim">
-Charla(s) de Abril
-</a>
-</h2>
-<h2 class="f5 fw4 mb4 dib mr3">
-<a href=/grupos/rubycr/2017-02-22-rb-reunion/ class="link black dim">
-Atención Rubyistas charla de Febrero: ¡podéis crear vuestro propio videojuego!
-</a>
-</h2>
-<a href=/grupos/ class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">Todos los Grupos</a>
 </section>
 </div>
 </main>
