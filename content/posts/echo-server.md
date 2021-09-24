@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "Simple Echo Server"
 date: 2021-09-19
+categories: devops
 ---
 
 # Simple Echo Server en Bash
