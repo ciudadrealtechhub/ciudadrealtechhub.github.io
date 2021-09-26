@@ -1,6 +1,11 @@
 ---
+layout: post
 title: "Configurar Nginx para que haga mirroring"
 date: 2021-09-19
+author: magmax
+tags:
+- devops
+- linux
 ---
 
 # Configurar Nginx para que haga mirroring
