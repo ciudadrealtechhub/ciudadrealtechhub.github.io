@@ -2,7 +2,10 @@
 layout: post
 title: "Simple Echo Server"
 date: 2021-09-19
-categories: devops
+author: magmax
+tags:
+- devops
+- linux
 ---
 
 # Simple Echo Server en Bash
