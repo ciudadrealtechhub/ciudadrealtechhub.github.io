@@ -11,8 +11,8 @@ de distintas asociaciones existentes en Ciudad Real.
 ## Contacto
 
 Si deseas contactar con nosotros, lo más sencillo es por el canal de Slack donde
-tenemos distintos canales temáticos. Para poder registrarte basta con entrar en
-https://ciudadrealtechhub.herokuapp.com.
+tenemos distintos canales temáticos. 
+[Te invitamos a registrarte usando esta invitación!](https://join.slack.com/t/ciudadrealtechhub/shared_invite/zt-1f985stgw-iggiiKRoQonMi7ITp6SRmw)
 
 ## Contribuciones a la web
 
